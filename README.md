@@ -1,5 +1,8 @@
-# Device Tree for Lenovo Tab M10 FHD Plus (2nd REL) (achilles6_row_wifi)
+# Device Tree for Lenovo Tab M10 FHD Plus (2nd REL WiFi) (achilles6_row_wifi)
 ## This is a WORK IN PROGRESS. Here be dragons.
+
+The Tab M10 FHD Plus 2nd Generation (codenamed "achilles6_row_wifi") is a low-end tablet from Lenovo.
+It was released in March 2020.
 
 |                   Basic | Spec Sheet                                                    |
 | ----------------------: | :------------------------------------------------------------ |
