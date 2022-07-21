@@ -42,8 +42,10 @@ PRODUCT_BRAND := Lenovo
 PRODUCT_MODEL := Lenovo Tab M10 FHD Plus 2nd Generation
 PRODUCT_MANUFACTURER := Lenovo
 
-BUILD_FINGERPRINT := "Redmi/begonia/begonia:9/PPR1.180610.011/V10.4.4.0.PGGCNXM:user/release-keys"
 
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="begonia-user 9 PPR1.180610.011 V10.4.4.0.PGGCNXM release-keys" \
-    PRODUCT_NAME="achilles6_row_wifi"
+## PLACEHOLDER ##
+#BUILD_FINGERPRINT := "Redmi/begonia/begonia:9/PPR1.180610.011/V10.4.4.0.PGGCNXM:user/release-keys"
+#
+#PRODUCT_BUILD_PROP_OVERRIDES += \
+#    PRIVATE_BUILD_DESC="begonia-user 9 PPR1.180610.011 V10.4.4.0.PGGCNXM release-keys" \
+#    PRODUCT_NAME="achilles6_row_wifi"
