@@ -16,6 +16,6 @@ It was released in March 2020.
 | Display                 | IPS LCD, 1920 x 1200 pixels, 10.3" (~220 ppi)                 |
 | Rear camera             | 8 MP, No flash                                                |
 | Front camera            | 5 MP, No flash                                                |
-| Shipped Android Version | 9.0                                                           |
+| Shipped Android Version | 9.0 , upgradable to 10                                        |
 
 ![a6edab04959d1694919d8909978ea33c-3977590543-removebg-preview](https://user-images.githubusercontent.com/67978777/180082440-439e4513-d0bb-4f72-880d-0751ba5b57cf.png)
