@@ -54,6 +54,7 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
 
 TARGET_KERNEL_SOURCE := kernel/lenovo/achilles6_row_wifi
 TARGET_KERNEL_CONFIG := achilles6_defconfig
+BOARD_KERNEL_IMAGE_NAME := bzImage
 
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 131072
