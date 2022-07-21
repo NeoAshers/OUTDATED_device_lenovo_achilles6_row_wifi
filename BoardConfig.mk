@@ -38,10 +38,6 @@ TARGET_USES_64_BIT_BINDER := true
 TARGET_IS_64_BIT := true
 
 # Kernel
-# change kernel name, depending on which device you are building for
-BOARD_KERNEL_IMAGE_NAME := x606f_zImage
-TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/$(BOARD_KERNEL_IMAGE_NAME)
-
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
@@ -55,6 +51,9 @@ BOARD_BOOTIMG_HEADER_VERSION := 1
 BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --ramdisk_offset $(BOARD_RAMDISK_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
+
+TARGET_KERNEL_SOURCE := kernel/lenovo/achilles6_row_wifi
+TARGET_KERNEL_CONFIG := achilles6_defconfig
 
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 131072
