@@ -21,7 +21,7 @@ PRODUCT_RELEASE_NAME := achilles6_row_wifi
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from begonia device makefile
+# Inherit from achilles6_row_wifi device makefile
 $(call inherit-product, device/lenovo/achilles6_row_wifi/device.mk)
 
 # Inherit from our custom product configuration
