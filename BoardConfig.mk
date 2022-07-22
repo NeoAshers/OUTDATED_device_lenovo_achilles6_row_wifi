@@ -70,3 +70,9 @@ BOARD_HAS_LARGE_FILESYSTEM := true
 # treble
 TARGET_COPY_OUT_VENDOR := vendor
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
+
+# fix overriding commands for target
+BUILD_BROKEN_DUP_RULES := true
+
+# prebuilt vendor
+BOARD_PREBUILT_VENDORIMAGE := device/lenovo/achilles6_row_wifi/prebuilt/vendor.img
