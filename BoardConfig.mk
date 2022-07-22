@@ -19,6 +19,7 @@ DEVICE_PATH := device/lenovo/achilles6_row_wifi
 # Platform
 TARGET_BOARD_PLATFORM := mt6765
 TARGET_BOOTLOADER_BOARD_NAME := mt6765
+BOARD_VENDOR = lenovo
 TARGET_NO_BOOTLOADER := true
 
 # Architecture

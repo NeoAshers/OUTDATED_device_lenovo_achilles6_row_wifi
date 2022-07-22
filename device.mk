@@ -26,6 +26,12 @@
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1200
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := achilles6_row_wifi,x606f,x606fa
+
+# Screen Density
+PRODUCT_AAPT_CONFIG := normal hdpi
+PRODUCT_AAPT_PREF_CONFIG := hdpi
 
 # Audio
 PRODUCT_COPY_FILES += \
