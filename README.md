@@ -26,8 +26,8 @@ It was released in March 2020.
 2. Get prebuilt files (vendor,kernel) (NOTE: this is temporary, until someone makes vendor and kernel trees.)
     - Do a LMSA rescue, and get the files from C:\ProgramData\RSA\Download\RomFiles\TB_X606*\. 
     - You can also get them from [https://mirrors.lolinet.com/firmware/lenovo/Tab_M10_FHD_Plus_2nd_Gen/](https://mirrors.lolinet.com/firmware/lenovo/Tab_M10_FHD_Plus_2nd_Gen/).
+    - After getting the files, unpack `boot.img`. Then, get the `kernel/zImage` file. Do not unpack the `vendor.img`
 3. Place the files in the correct locations
-    - Rename boot.img to zImage
     - Make a `prebuilt` folder, place the files in there.
 4. Run `breakfast` and enter lineage_achilles6_row_wifi-userdebug
 5. If `breakfast` shows no error, run `mka -j#` to build the ROM. (Replace -j# with the amount of threads you want to use. Eg: -j4)
