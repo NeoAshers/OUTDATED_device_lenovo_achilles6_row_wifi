@@ -19,3 +19,16 @@ It was released in March 2020.
 | Shipped Android Version | 9.0 , upgradable to 10                                        |
 
 ![a6edab04959d1694919d8909978ea33c-3977590543-removebg-preview](https://user-images.githubusercontent.com/67978777/180082440-439e4513-d0bb-4f72-880d-0751ba5b57cf.png)
+
+---
+# How to build
+1. Repo sync the manifest for your chosen ROM (So far only tested on Android 12.1 ROMs, A11 GSIs boot)
+2. Get prebuilt files (vendor,kernel) (NOTE: this is temporary, until someone makes vendor and kernel trees.)
+    - Do a LMSA rescue, and get the files from C:\ProgramData\RSA\Download\RomFiles\TB_X606*\. 
+    - You can also get them from [https://mirrors.lolinet.com/firmware/lenovo/Tab_M10_FHD_Plus_2nd_Gen/](https://mirrors.lolinet.com/firmware/lenovo/Tab_M10_FHD_Plus_2nd_Gen/).
+3. Place the files in the correct locations
+    - Rename boot.img to zImage
+    - Make a `prebuilt` folder, place the files in there.
+4. Run `breakfast` and enter lineage_achilles6_row_wifi-userdebug
+5. If `breakfast` shows no error, run `mka -j#` to build the ROM. (Replace -j# with the amount of threads you want to use. Eg: -j4)
+6. Wait. If any errors related to the DT appear, report them in the `Issues` tab of this repository.
