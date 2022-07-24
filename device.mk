@@ -108,7 +108,7 @@ PRODUCT_PACKAGES += \
     fstab.enableswap \
     fstab.mt6765 \
     fstab.mt8768 \
-    ueventd.qcom.rc 
+    ueventd.rc 
 
 # Seccomp
 PRODUCT_COPY_FILES += \
