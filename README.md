@@ -19,7 +19,9 @@ It was released in March 2020.
 | Shipped Android Version | 9.0 , upgradable to 10                                        |
 
 ![a6edab04959d1694919d8909978ea33c-3977590543-removebg-preview](https://user-images.githubusercontent.com/67978777/180082440-439e4513-d0bb-4f72-880d-0751ba5b57cf.png)
-
+---
+# Current known issues
+- Deadboot. Simply bootloops on a fully black screen until you do a LMSA rescue.
 ---
 # How to build
 1. Repo sync the manifest for your chosen ROM (So far only tested on Android 12.1 ROMs, A11 GSIs boot)
