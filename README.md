@@ -7,11 +7,12 @@ It was released in March 2020.
 |                   Basic | Spec Sheet                                                    |
 | ----------------------: | :------------------------------------------------------------ |
 | Chipset                 | Mediatek MT6762T Helio P22T                                   | 
-| CPU                     | Octa-core 4x2.3 GHz Cortex-A53 & 4x1.8 GHz Cortex-A53         |
-| GPU                     | PowerVR GE8320                                                |
+| CPU                     | Octa-core 4x 2.3 GHz Cortex-A53 & 4x 1.8 GHz Cortex-A53       |
+| GPU                     | PowerVR GE8320, 650 Mhz                                       |
 | RAM                     | 2/4 GB                                                        |
-| Storage                 | 32/64 GB                                                      |
-| Battery                 | Li-Po 7000 mAh, non-removable                                 |
+| Wireless                | Dual-band WiFi 802.11a/b/g/n/ac, LTE (TB-X606X/X606V only)    |
+| Storage                 | 32/64 GB, eMMC 5.1                                            |
+| Battery                 | Li-Po 5000 mAh, non-removable                                 |
 | Dimensions              | 244.2 x 153.3 x 8.2 mm                                        |
 | Display                 | IPS LCD, 1920 x 1200 pixels, 10.3" (~220 ppi)                 |
 | Rear camera             | 8 MP, No flash                                                |
